@@ -107,8 +107,8 @@ class _FlutterTableViewState extends State<FlutterTableView> {
   ////////////////////////////////////////////////////////////////////
   SectionHeaderModel currentHeaderModel;
   int totalItemCount = 0;
-  List<SectionHeaderModel> sectionHeaderList = List();
-  List<int> sectionTotalWidgetCountList = List();
+  List<SectionHeaderModel> sectionHeaderList = List.empty(growable: true);
+  List<int> sectionTotalWidgetCountList = List.empty(growable: true);
   ScrollController scrollController;
   ListView listView;
   bool insideSetStateFlag = false;
@@ -193,7 +193,7 @@ class _FlutterTableViewState extends State<FlutterTableView> {
   //                       create listView
   ////////////////////////////////////////////////////////////////////
   void _createListView() {
-    if(this.insideSetStateFlag == false) {
+    if (this.insideSetStateFlag == false) {
       this._initBaseData();
     }
 
@@ -292,7 +292,6 @@ class _FlutterTableViewState extends State<FlutterTableView> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
 
     if (this.widget.controller == null) {
