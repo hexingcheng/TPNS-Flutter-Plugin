@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "async",
-      "rootUri": "file:///Users/xingchenhe/.pub-cache/hosted/pub.flutter-io.cn/async-2.6.0",
+      "rootUri": "file:///Users/xingchenhe/.pub-cache/hosted/pub.flutter-io.cn/async-2.6.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -134,7 +134,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-05-14T09:58:46.129132Z",
+  "generated": "2021-05-31T02:42:46.052960Z",
   "generator": "pub",
-  "generatorVersion": "2.14.0-74.0.dev"
+  "generatorVersion": "2.14.0-145.0.dev"
 }

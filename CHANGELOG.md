@@ -1,3 +1,7 @@
+## V1.0.9
+
+* 升级tpns-ios
+
 ## V1.0.8
 
 * support nullsafty
