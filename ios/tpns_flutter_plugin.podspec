@@ -4,15 +4,15 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'tpns_flutter_plugin'
-  s.version          = '1.0.7'
+  s.version          = '1.1.0'
   s.summary          = 'TPNS'
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
   s.homepage         = 'https://cloud.tencent.com/product/tpns/'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Tencent' => 'rockzuo@tencent.com' }
-  s.source           = { :git => "https://github.com/TencentCloud/TPNS-Flutter-Plugin", :branch => "V1.0.7" }
+  s.author           = { 'Tencent' => 'xingchenhe@tencent.com' }
+  s.source           = { :git => "https://github.com/TencentCloud/TPNS-Flutter-Plugin", :branch => "V1.1.0" }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'TPNS-iOS', '1.2.4.9'

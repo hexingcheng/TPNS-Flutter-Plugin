@@ -1,3 +1,7 @@
+## V1.1.0
+
+* 注册成功返回deviceToken
+
 ## V1.0.9
 
 * 升级tpns-ios

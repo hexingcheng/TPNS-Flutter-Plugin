@@ -258,7 +258,7 @@
 /// @param error 错误信息，若error为nil则注册推送服务成功
 - (void)xgPushDidRegisteredDeviceToken:(nullable NSString *)deviceToken xgToken:(nullable NSString *)xgToken error:(nullable NSError *)error {
     if (!error) {
-        [_channel invokeMethod:@"onRegisteredDone" arguments:xgToken];
+        [_channel invokeMethod:@"onRegisteredDone" arguments:deviceToken];
         [[XGPushTokenManager defaultTokenManager] setDelegate:self];
     } else {
         NSString *describeStr = [NSString stringWithFormat:@"TPNS token:%@ error:%@", xgToken, error.description];
